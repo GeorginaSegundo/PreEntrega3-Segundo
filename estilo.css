@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Antic+Slab&family=Bad+Script&family=Cookie&family=Courgette&family=Dancing+Script:wght@600&family=Great+Vibes&family=Krub&family=Laila&family=M+PLUS+1p&family=Michroma&family=Montserrat&family=PT+Sans+Caption&family=Playball&family=Poiret+One&family=Quicksand&family=Quintessential&family=Reem+Kufi:wght@700&family=Rochester&family=Skranji&family=Telex&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  background-color: rgb(0, 59, 55);
+  font-family: "Poiret One", cursive;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 5px;
+}
+
+.jumbotron {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/montevideo-3603950.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  color: whitesmoke;
+  font-family: "Bad Script", cursive;
+  text-align: center;
+  margin: 0;
+}
+.jumbotron h1 {
+  font-size: 320%;
+  text-shadow: 2px 2px 2px black;
+}
+.jumbotron p {
+  font-size: 150%;
+  text-shadow: 2px 2px 2px black;
+  text-align: center;
+  padding-top: 10px;
+}
+
+h2 {
+  font-family: "Bad Script", cursive;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-top: 5%;
+  color: rgb(0, 59, 55);
+  text-shadow: 2px 2px 2px whitesmoke;
+  text-align: center;
+}
+
+.nder {
+  background-image: url(./img/altura.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.nizq {
+  background-color: rgba(104, 174, 202, 0.582);
+}
+.nizq p {
+  text-align: justify;
+  padding: 4%;
+  padding-bottom: 0;
+}/*# sourceMappingURL=estilo.css.map */
