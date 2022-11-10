@@ -33,6 +33,14 @@
   text-align: center;
   padding-top: 10px;
 }
+.jumbotron a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-weight: bold;
+  font-size: 133%;
+  font-family: "Poiret One", cursive;
+  text-shadow: 2px 2px 2px black;
+}
 
 h2 {
   font-family: "Bad Script", cursive;
@@ -45,7 +53,7 @@ h2 {
 }
 
 .nder {
-  background-image: url(./img/altura.jpg);
+  background-image: url(./img/rambla.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -57,4 +65,74 @@ h2 {
   text-align: justify;
   padding: 4%;
   padding-bottom: 0;
+}
+
+section {
+  background-image: url(./img/ramblaverde.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.ser {
+  background-color: rgba(0, 0, 0, 0.801);
+  height: 500px;
+  overflow: hidden;
+}
+.ser h3 {
+  text-transform: uppercase;
+  text-align: center;
+  color: whitesmoke;
+  padding-top: 3%;
+  text-shadow: 5px 5px 5px black;
+}
+.ser p {
+  padding-top: 2%;
+  padding-bottom: 3%;
+  text-align: justify;
+  color: whitesmoke;
+}
+.ser span {
+  color: whitesmoke;
+  text-shadow: 2px 2px 2px rgb(0, 0, 0);
+  font-size: 220%;
+}
+
+form {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/montevideo-3603950.jpg);
+  background-position: center;
+  background-size: cover;
+  font-family: "M PLUS 1p", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: rgb(69, 200, 252);
+  text-shadow: 5px 5px 5px rgb(0, 0, 0);
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-align: center;
+  padding: 70px;
+}
+
+footer {
+  height: auto;
+  width: 100%;
+  background-color: rgb(0, 59, 55);
+  text-align: center;
+  font-size: 25px;
+  font-family: "Poiret One", cursive;
+}
+
+footer p {
+  color: whitesmoke;
+  letter-spacing: 3px;
+}
+
+.redes a {
+  letter-spacing: 20px;
+  color: skyblue;
+  text-align: center;
+  font-size: 140%;
+}
+
+.redes a:hover {
+  color: aliceblue;
 }/*# sourceMappingURL=estilo.css.map */

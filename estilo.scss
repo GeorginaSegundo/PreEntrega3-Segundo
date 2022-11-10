@@ -1,19 +1,22 @@
 $color1: rgb(0, 59, 55);
-$color2: rgb(11, 68, 90);
-$fuente1: 'Poiret One', cursive;
-$fuente2: 'M PLUS 1p', sans-serif;
-$fuente3:  'Bad Script', cursive;
+$color2: rgb(17, 104, 138);
+$fuente1: 'Poiret One',
+cursive;
+$fuente2: 'M PLUS 1p',
+sans-serif;
+$fuente3: 'Bad Script',
+cursive;
 
 
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Antic+Slab&family=Bad+Script&family=Cookie&family=Courgette&family=Dancing+Script:wght@600&family=Great+Vibes&family=Krub&family=Laila&family=M+PLUS+1p&family=Michroma&family=Montserrat&family=PT+Sans+Caption&family=Playball&family=Poiret+One&family=Quicksand&family=Quintessential&family=Reem+Kufi:wght@700&family=Rochester&family=Skranji&family=Telex&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.navbar{
+.navbar {
     background-color: $color1;
     font-family: $fuente1;
     text-transform: uppercase;
@@ -21,8 +24,8 @@ $fuente3:  'Bad Script', cursive;
     letter-spacing: 5px;
 }
 
-.jumbotron{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(img/montevideo-3603950.jpg);
+.jumbotron {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/montevideo-3603950.jpg);
     background-size: cover;
     background-position: center;
     height: 600px;
@@ -30,19 +33,30 @@ $fuente3:  'Bad Script', cursive;
     font-family: $fuente3;
     text-align: center;
     margin: 0;
-        h1{
-            font-size: 320%;
-            text-shadow: 2px 2px 2px black;
-        }
-        p{
-            font-size: 150%;
-            text-shadow: 2px 2px 2px black;
-            text-align: center;
-            padding-top: 10px;
-        }
+
+    h1 {
+        font-size: 320%;
+        text-shadow: 2px 2px 2px black;
+    }
+
+    p {
+        font-size: 150%;
+        text-shadow: 2px 2px 2px black;
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    a {
+        text-decoration: none;
+        color: whitesmoke;
+        font-weight: bold;
+        font-size: 133%;
+        font-family: $fuente1;
+        text-shadow: 2px 2px 2px black;
+    }
 }
 
-h2{
+h2 {
     font-family: $fuente3;
     font-weight: bold;
     text-transform: uppercase;
@@ -52,17 +66,95 @@ h2{
     text-align: center;
 }
 
-.nder{
-background-image: url(./img/altura.jpg);
-background-size: cover;
-background-position: center;
+.nder {
+    background-image: url(./img/rambla.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
-.nizq{
+.nizq {
     background-color: rgba(104, 174, 202, 0.582);
-    p{
+
+    p {
         text-align: justify;
         padding: 4%;
         padding-bottom: 0;
     }
+}
+
+section {
+    background-image: url(./img/ramblaverde.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.ser {
+    background-color: rgba(0, 0, 0, 0.801);
+    height: 500px;
+    overflow: hidden;
+
+    h3 {
+        text-transform: uppercase;
+        text-align: center;
+        color: whitesmoke;
+        padding-top: 3%;
+        text-shadow: 5px 5px 5px black;
+    }
+
+    p {
+        padding-top: 2%;
+        padding-bottom: 3%;
+        text-align: justify;
+        color: whitesmoke;
+    }
+
+    span {
+        color: whitesmoke;
+        text-shadow: 2px 2px 2px rgb(0, 0, 0);
+        font-size: 220%;
+    }
+
+}
+
+
+
+form{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/montevideo-3603950.jpg);
+    background-position: center;
+    background-size: cover;
+    font-family: $fuente2;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: rgb(69, 200, 252);
+    text-shadow: 5px 5px 5px rgb(0, 0, 0);
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+    padding: 70px;
+}
+
+
+footer{
+    height: auto;
+    width: 100%;
+    background-color: $color1;
+    text-align: center;
+    font-size: 25px;
+    font-family: $fuente1;
+}
+
+footer p{
+    color: whitesmoke;
+    letter-spacing: 3px;
+}
+
+.redes a{
+    letter-spacing: 20px;
+    color: skyblue;
+    text-align: center;
+    font-size: 140%;
+}
+
+.redes a:hover {
+    color: aliceblue;
 }
